@@ -77,9 +77,9 @@ app.post('/update', async (req, res) => {
     }
 });
 
-// Start the server
-app.listen(3000, () => {
-    console.log("Server is running on localhost:3000");
-});
+// // Start the server
+// app.listen(3000, () => {
+//     console.log("Server is running on localhost:3000");
+// });
 
 module.exports = app;
